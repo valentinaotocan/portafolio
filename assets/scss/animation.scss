@@ -1,0 +1,104 @@
+
+.fromBottom {
+  opacity: 0;
+  transform: translateY(20%);
+  transition: all 1s ease-in-out;
+  &.in-viewport {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.fromTop {
+  opacity: 0;
+  transform: translateY(-30%);
+  transition: all 0.8s cubic-bezier(0.46,0.03,0.52,0.96) 0.25s;
+  &.in-viewport {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.fromOpacity {
+  opacity: 0;
+  transition: all 2s cubic-bezier(0.46,0.03,0.52,0.96);
+  &.in-viewport {
+    opacity: 1;
+  }
+}
+.fromOpacity2 {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  &.in-viewport {
+    opacity: 1;
+  }
+}
+
+.bigger {
+  transform: scale(0.5);
+  transition: transform 1s linear;
+
+  &.in-viewport {
+    transform: scale(1);
+  }
+}
+.fromLeft {
+  opacity: 0;
+  transform: translateX(-20%);
+  transition: all 0.5s ease-in-out;
+  &.in-viewport {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+.fromRight {
+  opacity: 0;
+  transform: translateX(20%);
+  transition: all 0.5s ease-in-out;
+  &.in-viewport {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+.easyRevealTop {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.2s cubic-bezier(0.1,0,0.75,0.72) 0.25s;
+  &.in-viewport {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.easyRevealBottom {
+  opacity: 0;
+  transform: translateY(5px);
+  transition: all 0.5s ease-in-out 0.25s;
+  &.in-viewport {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.delay {
+  &--25 {
+    transition-delay: 0.25s;
+  }
+  &--50 {
+    transition-delay: 0.5s;
+  }
+  &--70 {
+    transition-delay: 0.7s;
+  }
+  &--90 {
+    transition-delay: 0.9s;
+  }
+  &--100 {
+    transition-delay: 1s;
+  }
+  &--125 {
+    transition-delay: 1.25s;
+  }
+  &--200 {
+    transition-delay: 2s;
+  }
+}
+
+
+

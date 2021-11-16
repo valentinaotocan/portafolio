@@ -1,0 +1,77 @@
+.btn {
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 52px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #0082c8;
+  color: #0082c8;
+
+  &:hover {
+    color: #fff;
+  }
+  &:hover:after {
+    height: 100%;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(
+      to top,
+      #667db6,
+      #0082c8,
+      #0082c8,
+      #667db6
+    );
+    background: linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6);
+  }
+}
+
+// hover
+.underline {
+  position: relative;
+  padding-bottom: 2px;
+
+  &:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: $secundary-clr;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  &:hover {
+    &:after {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &--primary-clr {
+    &:after {
+      background: $primary-clr;
+    }
+  }
+}
+
+.social:hover {
+opacity: 0.8;
+}
+
