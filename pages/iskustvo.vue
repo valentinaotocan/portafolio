@@ -55,7 +55,9 @@
       <h2 class="fs-xl pb-sm pt-md">Učenje</h2>
       <div class="learning__text fs-base">
         <p class="pb-sm">Trenutno pohađam tečajeve na Udemy-u:</p>
-        <p class="pb-sm">Modern JavaScript from the beginning - Brad Traversy</p>
+        <p class="pb-sm">
+          Modern JavaScript from the beginning - Brad Traversy
+        </p>
         <p>
           50 projects in 50 days - HTML, CSS and JavaScript - Brad Traversy,
           Florin Pop
@@ -70,8 +72,8 @@
         <div class="experience__wrap__text mw-550">
           <h1 class="fs-xl pb-sm">Iskustvo</h1>
           <p class="fs-base pb-md">
-            Kao frontend developer imam 6 mj. radnog iskustva. Za to vrijeme radila
-            sam na sveukupno 10 projekata u koje spada i održavanje web
+            Kao frontend developer imam 6 mj. radnog iskustva. Za to vrijeme
+            radila sam na sveukupno 10 projekata u koje spada i održavanje web
             stranica.
           </p>
           <p class="fs-base">
@@ -102,7 +104,11 @@
       </div>
 
       <div class="button">
-        <nuxt-link to="/" class="fs-base btn mt-3xl"> Preuzmi CV </nuxt-link>
+        <a
+          href="/files/valentina_otocan_cv.pdf"
+          download
+          class="fs-base btn mt-3xl">
+          Preuzmi CV</a>
       </div>
     </section>
   </main>
@@ -251,7 +257,7 @@ export default {
   .w-rsp {
     width: 1000px;
   }
-  
+
   .experience__wrap {
     flex-direction: column;
     &__text {
