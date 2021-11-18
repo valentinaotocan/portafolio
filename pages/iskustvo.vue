@@ -27,7 +27,8 @@
       <div class="knowledge__image pl-5">
         <img
           src="~/assets/img/programming.JPG"
-          class="img-contain w-rsp"
+          class="img-contain w-rsp fromOpacity"
+          v-in-viewport.once
           alt="Programming"
         />
       </div>
@@ -95,7 +96,8 @@
           <img
             src="~/assets/img/screen.jpg"
             loading="lazy"
-            class="img-contain blur w-rsp"
+            class="img-contain blur w-rsp fromOpacity"
+            v-in-viewport.once
             alt="Screen"
           />
         </div>

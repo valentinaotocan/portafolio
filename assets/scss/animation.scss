@@ -1,13 +1,3 @@
-
-.fromBottom {
-  opacity: 0;
-  transform: translateY(20%);
-  transition: all 1s ease-in-out;
-  &.in-viewport {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
 .fromTop {
   opacity: 0;
   transform: translateY(-30%);
@@ -19,7 +9,7 @@
 }
 .fromOpacity {
   opacity: 0;
-  transition: all 2s cubic-bezier(0.46,0.03,0.52,0.96);
+  transition: all 0.8s cubic-bezier(0.46,0.03,0.52,0.96);
   &.in-viewport {
     opacity: 1;
   }

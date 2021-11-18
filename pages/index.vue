@@ -6,7 +6,8 @@
       <div class="home__picture">
         <img
           src="~/assets/img/valentina-otocan.jpeg"
-          class="home__picture__me img-contain border-img"
+          class="home__picture__me img-contain border-img fromOpacity"
+          v-in-viewport
           alt="Valentina Otočan"
         />
         <img

@@ -38,7 +38,8 @@
         <img
           src="~/assets/img/profile.jpeg"
           loading="lazy"
-          class="about-me__img__profile img-contain border-img"
+          class="about-me__img__profile img-contain border-img fromOpacity"
+          v-in-viewport.once
           alt="Profile"
         />
       </div>
