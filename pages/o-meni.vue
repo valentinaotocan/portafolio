@@ -4,7 +4,6 @@
       <div class="about-me__circle linear"></div>
       <img
         src="~/assets/img/nofollow/skills.png"
-        loading="lazy"
         class="about-me__icon-skills png fromTop"
         v-in-viewport.once
         alt="Skills"

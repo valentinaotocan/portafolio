@@ -6,27 +6,23 @@
       <div class="home__picture">
         <img
           src="~/assets/img/valentina-otocan.jpeg"
-          loading="lazy"
           class="home__picture__me img-contain border-img"
           alt="Valentina Otočan"
         />
         <img
           src="~/assets/img/nofollow/pet.png"
-          loading="lazy"
           class="home__picture__pet img-contain png fromTop"
           v-in-viewport
           alt="Pet"
         />
         <img
           src="~/assets/img/nofollow/work.png"
-          loading="lazy"
           class="home__picture__work img-contain png fromTop"
           v-in-viewport
           alt="Work"
         />
         <img
           src="~/assets/img/nofollow/ecology.png"
-          loading="lazy"
           class="home__picture__ecology img-contain png fromTop"
           v-in-viewport
           alt="Ecology"

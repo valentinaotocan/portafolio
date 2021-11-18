@@ -3,7 +3,6 @@
     <section class="section section--first knowledge ptb-custom plr-custom">
       <img
         src="~/assets/img/nofollow/html.png"
-        loading="lazy"
         class="knowledge__icon-html img-contain png fromTop"
         v-in-viewport.once
         alt="Html"
@@ -28,7 +27,6 @@
       <div class="knowledge__image pl-5">
         <img
           src="~/assets/img/programming.JPG"
-          loading="lazy"
           class="img-contain w-rsp"
           alt="Programming"
         />
