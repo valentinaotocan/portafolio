@@ -105,7 +105,7 @@
 
       <div class="button">
         <a
-          href="/files/valentina_otocan_cv.pdf"
+          href="assets/files/valentina_otocan_cv.pdf"
           download
           class="fs-base btn mt-3xl">
           Preuzmi CV</a>
