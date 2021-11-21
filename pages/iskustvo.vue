@@ -96,8 +96,7 @@
           <img
             src="~/assets/img/screen.jpg"
             loading="lazy"
-            class="img-contain blur w-rsp fromOpacity"
-            v-in-viewport.once
+            class="img-contain blur w-rsp"
             alt="Screen"
           />
         </div>
