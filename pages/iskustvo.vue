@@ -14,7 +14,7 @@
           <ul class="ml-lg">
             <li>HTML</li>
             <li>CSS</li>
-            <li>SCSS</li>
+            <li>SASS</li>
             <li>Osnove JavaScripta</li>
           </ul>
           <ul class="ml-6xl">

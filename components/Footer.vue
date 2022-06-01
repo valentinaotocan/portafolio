@@ -4,11 +4,21 @@
       <section
         class="footer linear plr-custom txt-color-primary fs-base fw-normal"
       >
-        <p>Sva prava pridržana. &copy; Valentina Otočan 2021.</p>
+        <p>Sva prava pridržana. &copy; Valentina Otočan {{currentDate.getFullYear()}}.</p>
       </section>
     </main>
   </footer>
 </template>
+
+<script>
+export default {
+  data(){
+     return {
+        currentDate: new Date,
+    }
+ }
+}
+</script>
 
 <style lang="scss" scoped>
 .footer {
