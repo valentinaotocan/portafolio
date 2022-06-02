@@ -12,15 +12,15 @@
         <h2 class="fs-xl pb-sm">Znanje</h2>
         <div class="knowledge__text__items mw-550 fs-base">
           <ul class="ml-lg">
+            <li>Git</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>SASS</li>
-            <li>Osnove JavaScripta</li>
+            <li>Sass</li>
           </ul>
           <ul class="ml-6xl">
-            <li>Osnove Nuxt.js-a</li>
-            <li>Git</li>
             <li>BEM (Block, Element, Modifier) metoda</li>
+            <li>JavaScript</li>
+            <li>Osnove Nuxt.js-a</li>
           </ul>
         </div>
       </div>
