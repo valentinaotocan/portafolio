@@ -104,7 +104,7 @@
 
       <div class="button">
         <a
-          href="/files/valentina_otocan_cv.pdf"
+          href="/files/cv_valentina_otocan.pdf"
           download=""
           class="fs-base btn mt-3xl">
           Preuzmi CV</a>
@@ -280,3 +280,5 @@ export default {
   }
 }
 </style>
+
+
