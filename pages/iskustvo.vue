@@ -13,14 +13,15 @@
         <div class="knowledge__text__items mw-550 fs-base">
           <ul class="ml-lg">
             <li>Git</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML &amp; CSS</li>
             <li>Sass</li>
+            <li>BEM metoda</li>
           </ul>
           <ul class="ml-6xl">
-            <li>BEM (Block, Element, Modifier) metoda</li>
             <li>JavaScript</li>
             <li>Osnove Nuxt.js-a</li>
+            <li>React.js &amp; Next.js</li>
+            <li>Typescript in React.js</li>
           </ul>
         </div>
       </div>
@@ -53,14 +54,11 @@
       />
       <h2 class="fs-xl pb-sm pt-md">Učenje</h2>
       <div class="learning__text fs-base">
-        <p class="pb-sm">Trenutno pohađam tečajeve na Udemy-u:</p>
+        <p class="pb-sm">U posljednje vrijeme učim TypeScript.</p>
         <p class="pb-sm">
-          Modern JavaScript from the beginning - Brad Traversy
+          Od načina na koji funkcionira sam TypeScript do njegove primjene u React-u.
         </p>
-        <p>
-          50 projects in 50 days - HTML, CSS and JavaScript - Brad Traversy,
-          Florin Pop
-        </p>
+        <p>Sljedeće u planu je Typescript u Next-u.</p>
       </div>
     </section>
 

@@ -2,7 +2,7 @@
   <div>
     <Header />
     <Nuxt />
-    <Footer :class="{hide: routeCheckFooter, position: routeCheckFooter2 }"/>
+    <Footer :class="{hide: routeCheckFooter }"/>
   </div>
 </template>
 
