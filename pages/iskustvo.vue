@@ -21,7 +21,7 @@
             <li>JavaScript</li>
             <li>Osnove Nuxt.js-a</li>
             <li>React.js &amp; Next.js</li>
-            <li>Typescript in React.js</li>
+            <li>TypeScript in React.js</li>
           </ul>
         </div>
       </div>
@@ -58,7 +58,7 @@
         <p class="pb-sm">
           Od načina na koji funkcionira sam TypeScript do njegove primjene u React-u.
         </p>
-        <p>Sljedeće u planu je Typescript u Next-u.</p>
+        <p>Nakon što si dam vremena i truda, u planu je TypeScript u Next-u.</p>
       </div>
     </section>
 
