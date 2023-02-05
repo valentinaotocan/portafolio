@@ -19,9 +19,9 @@
           </ul>
           <ul class="ml-6xl">
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>Osnove Nuxt.js-a</li>
             <li>React.js &amp; Next.js</li>
-            <li>TypeScript in React.js</li>
           </ul>
         </div>
       </div>
